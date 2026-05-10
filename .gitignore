@@ -1,0 +1,23 @@
+# macOS / Windows junk
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional packaging / keys (don't commit packaged builds or secrets)
+*.crx
+*.pem
+*.zip
+dist/
+
+# Logs / local env
+*.log

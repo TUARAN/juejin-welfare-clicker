@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "掘金福利补签兑换助手",
+  "version": "1.0.0",
+  "description": "在掘金「福利」页按设定次数辅助完成兑换与「确定兑换」确认；仅注入当前页面的脚本，请自行遵守平台规则，矿石兑换不可轻率。",
+  "permissions": ["storage"],
+  "host_permissions": ["https://juejin.cn/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://juejin.cn/user/center/welfare*"],
+      "js": ["content.js"],
+      "css": ["panel.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "福利页右下角打开兑换面板"
+  }
+}
