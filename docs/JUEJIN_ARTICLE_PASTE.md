@@ -1,5 +1,7 @@
 <!-- 仅用于复制到掘金「写文章」正文。标题已在编辑器填好，勿把本行粘贴进去。 -->
 
+![掘金福利补签兑换助手 - 封面横幅](https://raw.githubusercontent.com/TUARAN/juejin-welfare-clicker/main/docs/article-banner.png)
+
 本文介绍作者本人维护的开源 Chrome/Edge 扩展，**非商业推广**。矿石兑换有风险，请自行阅读文末说明。
 
 **项目地址**：[juejin-welfare-clicker](https://github.com/TUARAN/juejin-welfare-clicker)
